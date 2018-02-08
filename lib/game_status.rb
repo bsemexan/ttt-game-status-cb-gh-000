@@ -21,11 +21,11 @@ end
 def full?(board)
   board.each do |full|
     if full = "" || full == " "
-      return true
-    else
       return false
+    else
+      return true
     end
-  end      
+  end
 end
 
 def draw?(board)
