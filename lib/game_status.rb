@@ -9,3 +9,7 @@ IN_COMBINATIONS = [
   [3,4,5]  # Middle row
   # ETC, an array for each win combination
 ]
+
+def won?(board)
+end
+
