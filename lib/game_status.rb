@@ -19,11 +19,7 @@ def won?(board)
 end
 
 def full?(board)
-  if !over?
-    return false
-  else
-    return true
-  end
+  !board.include?(" ")
 end
 
 def draw?(board)
