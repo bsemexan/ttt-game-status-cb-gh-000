@@ -19,13 +19,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.each do |full|
-    if full == "X" || full == "O"
-      return true
-    else
-      return false
-    end
-  end
+  board.all?
 end
 
 def draw?(board)
