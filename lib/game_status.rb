@@ -29,6 +29,10 @@ def full?(board)
 end
 
 def draw?(board)
+  if !WIN_COMBINATIONS
+    return true
+  else
+    return false
 end
 
 def over?(board)
