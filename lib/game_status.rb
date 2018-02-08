@@ -20,7 +20,7 @@ end
 
 def full?(board)
   board.each do |full|
-    if full == "" || full == " "
+    if full == "X" || full == "O"
       return false
     else
       return true
