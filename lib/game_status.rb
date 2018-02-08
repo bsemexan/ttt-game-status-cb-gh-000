@@ -21,7 +21,7 @@ end
 def full?(board)
   if !over?
     return false
-  else 
+  else
     return true
   end
 end
